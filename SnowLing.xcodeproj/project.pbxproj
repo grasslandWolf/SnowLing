@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55AD0021DBDF05600A44281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C55AD0011DBDF05600A44281 /* main.m */; };
+		C55AD0051DBDF05600A44281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C55AD0041DBDF05600A44281 /* AppDelegate.m */; };
+		C55AD0081DBDF05600A44281 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55AD0071DBDF05600A44281 /* ViewController.m */; };
+		C55AD00B1DBDF05600A44281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55AD0091DBDF05600A44281 /* Main.storyboard */; };
+		C55AD00D1DBDF05600A44281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55AD00C1DBDF05600A44281 /* Assets.xcassets */; };
+		C55AD0101DBDF05600A44281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55AD00E1DBDF05600A44281 /* LaunchScreen.storyboard */; };
+		C55AD01B1DBDF05600A44281 /* SnowLingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55AD01A1DBDF05600A44281 /* SnowLingTests.m */; };
+		C55AD0261DBDF05600A44281 /* SnowLingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C55AD0251DBDF05600A44281 /* SnowLingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C55AD0171DBDF05600A44281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55ACFF51DBDF05600A44281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55ACFFC1DBDF05600A44281;
+			remoteInfo = SnowLing;
+		};
+		C55AD0221DBDF05600A44281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C55ACFF51DBDF05600A44281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55ACFFC1DBDF05600A44281;
+			remoteInfo = SnowLing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C55ACFFD1DBDF05600A44281 /* SnowLing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowLing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55AD0011DBDF05600A44281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C55AD0031DBDF05600A44281 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C55AD0041DBDF05600A44281 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55AD0061DBDF05600A44281 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C55AD0071DBDF05600A44281 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C55AD00A1DBDF05600A44281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55AD00C1DBDF05600A44281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55AD00F1DBDF05600A44281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55AD0111DBDF05600A44281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55AD0161DBDF05600A44281 /* SnowLingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowLingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55AD01A1DBDF05600A44281 /* SnowLingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowLingTests.m; sourceTree = "<group>"; };
+		C55AD01C1DBDF05600A44281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55AD0211DBDF05600A44281 /* SnowLingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowLingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55AD0251DBDF05600A44281 /* SnowLingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowLingUITests.m; sourceTree = "<group>"; };
+		C55AD0271DBDF05600A44281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55ACFFA1DBDF05600A44281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AD0131DBDF05600A44281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AD01E1DBDF05600A44281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55ACFF41DBDF05600A44281 = {
+			isa = PBXGroup;
+			children = (
+				C55ACFFF1DBDF05600A44281 /* SnowLing */,
+				C55AD0191DBDF05600A44281 /* SnowLingTests */,
+				C55AD0241DBDF05600A44281 /* SnowLingUITests */,
+				C55ACFFE1DBDF05600A44281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55ACFFE1DBDF05600A44281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55ACFFD1DBDF05600A44281 /* SnowLing.app */,
+				C55AD0161DBDF05600A44281 /* SnowLingTests.xctest */,
+				C55AD0211DBDF05600A44281 /* SnowLingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55ACFFF1DBDF05600A44281 /* SnowLing */ = {
+			isa = PBXGroup;
+			children = (
+				C55AD0031DBDF05600A44281 /* AppDelegate.h */,
+				C55AD0041DBDF05600A44281 /* AppDelegate.m */,
+				C55AD0061DBDF05600A44281 /* ViewController.h */,
+				C55AD0071DBDF05600A44281 /* ViewController.m */,
+				C55AD0091DBDF05600A44281 /* Main.storyboard */,
+				C55AD00C1DBDF05600A44281 /* Assets.xcassets */,
+				C55AD00E1DBDF05600A44281 /* LaunchScreen.storyboard */,
+				C55AD0111DBDF05600A44281 /* Info.plist */,
+				C55AD0001DBDF05600A44281 /* Supporting Files */,
+			);
+			path = SnowLing;
+			sourceTree = "<group>";
+		};
+		C55AD0001DBDF05600A44281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55AD0011DBDF05600A44281 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C55AD0191DBDF05600A44281 /* SnowLingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C55AD01A1DBDF05600A44281 /* SnowLingTests.m */,
+				C55AD01C1DBDF05600A44281 /* Info.plist */,
+			);
+			path = SnowLingTests;
+			sourceTree = "<group>";
+		};
+		C55AD0241DBDF05600A44281 /* SnowLingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C55AD0251DBDF05600A44281 /* SnowLingUITests.m */,
+				C55AD0271DBDF05600A44281 /* Info.plist */,
+			);
+			path = SnowLingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55ACFFC1DBDF05600A44281 /* SnowLing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55AD02A1DBDF05600A44281 /* Build configuration list for PBXNativeTarget "SnowLing" */;
+			buildPhases = (
+				C55ACFF91DBDF05600A44281 /* Sources */,
+				C55ACFFA1DBDF05600A44281 /* Frameworks */,
+				C55ACFFB1DBDF05600A44281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowLing;
+			productName = SnowLing;
+			productReference = C55ACFFD1DBDF05600A44281 /* SnowLing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55AD0151DBDF05600A44281 /* SnowLingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55AD02D1DBDF05600A44281 /* Build configuration list for PBXNativeTarget "SnowLingTests" */;
+			buildPhases = (
+				C55AD0121DBDF05600A44281 /* Sources */,
+				C55AD0131DBDF05600A44281 /* Frameworks */,
+				C55AD0141DBDF05600A44281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55AD0181DBDF05600A44281 /* PBXTargetDependency */,
+			);
+			name = SnowLingTests;
+			productName = SnowLingTests;
+			productReference = C55AD0161DBDF05600A44281 /* SnowLingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C55AD0201DBDF05600A44281 /* SnowLingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55AD0301DBDF05600A44281 /* Build configuration list for PBXNativeTarget "SnowLingUITests" */;
+			buildPhases = (
+				C55AD01D1DBDF05600A44281 /* Sources */,
+				C55AD01E1DBDF05600A44281 /* Frameworks */,
+				C55AD01F1DBDF05600A44281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C55AD0231DBDF05600A44281 /* PBXTargetDependency */,
+			);
+			name = SnowLingUITests;
+			productName = SnowLingUITests;
+			productReference = C55AD0211DBDF05600A44281 /* SnowLingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55ACFF51DBDF05600A44281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lxl;
+				TargetAttributes = {
+					C55ACFFC1DBDF05600A44281 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 44CEWG8485;
+						ProvisioningStyle = Automatic;
+					};
+					C55AD0151DBDF05600A44281 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 44CEWG8485;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C55ACFFC1DBDF05600A44281;
+					};
+					C55AD0201DBDF05600A44281 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 44CEWG8485;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C55ACFFC1DBDF05600A44281;
+					};
+				};
+			};
+			buildConfigurationList = C55ACFF81DBDF05600A44281 /* Build configuration list for PBXProject "SnowLing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55ACFF41DBDF05600A44281;
+			productRefGroup = C55ACFFE1DBDF05600A44281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55ACFFC1DBDF05600A44281 /* SnowLing */,
+				C55AD0151DBDF05600A44281 /* SnowLingTests */,
+				C55AD0201DBDF05600A44281 /* SnowLingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55ACFFB1DBDF05600A44281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55AD0101DBDF05600A44281 /* LaunchScreen.storyboard in Resources */,
+				C55AD00D1DBDF05600A44281 /* Assets.xcassets in Resources */,
+				C55AD00B1DBDF05600A44281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AD0141DBDF05600A44281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AD01F1DBDF05600A44281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55ACFF91DBDF05600A44281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55AD0081DBDF05600A44281 /* ViewController.m in Sources */,
+				C55AD0051DBDF05600A44281 /* AppDelegate.m in Sources */,
+				C55AD0021DBDF05600A44281 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AD0121DBDF05600A44281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55AD01B1DBDF05600A44281 /* SnowLingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55AD01D1DBDF05600A44281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55AD0261DBDF05600A44281 /* SnowLingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C55AD0181DBDF05600A44281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55ACFFC1DBDF05600A44281 /* SnowLing */;
+			targetProxy = C55AD0171DBDF05600A44281 /* PBXContainerItemProxy */;
+		};
+		C55AD0231DBDF05600A44281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C55ACFFC1DBDF05600A44281 /* SnowLing */;
+			targetProxy = C55AD0221DBDF05600A44281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C55AD0091DBDF05600A44281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55AD00A1DBDF05600A44281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55AD00E1DBDF05600A44281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55AD00F1DBDF05600A44281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55AD0281DBDF05600A44281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55AD0291DBDF05600A44281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55AD02B1DBDF05600A44281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44CEWG8485;
+				INFOPLIST_FILE = SnowLing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenglan.SnowLing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C55AD02C1DBDF05600A44281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44CEWG8485;
+				INFOPLIST_FILE = SnowLing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenglan.SnowLing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C55AD02E1DBDF05600A44281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 44CEWG8485;
+				INFOPLIST_FILE = SnowLingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenglan.SnowLingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowLing.app/SnowLing";
+			};
+			name = Debug;
+		};
+		C55AD02F1DBDF05600A44281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 44CEWG8485;
+				INFOPLIST_FILE = SnowLingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenglan.SnowLingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowLing.app/SnowLing";
+			};
+			name = Release;
+		};
+		C55AD0311DBDF05600A44281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44CEWG8485;
+				INFOPLIST_FILE = SnowLingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenglan.SnowLingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnowLing;
+			};
+			name = Debug;
+		};
+		C55AD0321DBDF05600A44281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44CEWG8485;
+				INFOPLIST_FILE = SnowLingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenglan.SnowLingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnowLing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55ACFF81DBDF05600A44281 /* Build configuration list for PBXProject "SnowLing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AD0281DBDF05600A44281 /* Debug */,
+				C55AD0291DBDF05600A44281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55AD02A1DBDF05600A44281 /* Build configuration list for PBXNativeTarget "SnowLing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AD02B1DBDF05600A44281 /* Debug */,
+				C55AD02C1DBDF05600A44281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55AD02D1DBDF05600A44281 /* Build configuration list for PBXNativeTarget "SnowLingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AD02E1DBDF05600A44281 /* Debug */,
+				C55AD02F1DBDF05600A44281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C55AD0301DBDF05600A44281 /* Build configuration list for PBXNativeTarget "SnowLingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55AD0311DBDF05600A44281 /* Debug */,
+				C55AD0321DBDF05600A44281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55ACFF51DBDF05600A44281 /* Project object */;
+}
