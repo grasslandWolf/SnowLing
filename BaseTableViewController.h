@@ -1,0 +1,19 @@
+//
+//  BaseTableViewController.h
+//  SnowLing
+//
+//  Created by 刘新乐 on 16/10/24.
+//  Copyright © 2016年 lxl. All rights reserved.
+//
+
+#import "BaseViewController.h"
+
+@interface BaseTableViewController : BaseViewController
+
+@property (nonatomic,strong) UITableView * BaseTableView;
+
+
+- (void)configureTableViewAndFrame:(CGRect)frame style:(UITableViewStyle)style ;
+
+
+@end

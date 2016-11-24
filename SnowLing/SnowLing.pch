@@ -1,0 +1,57 @@
+//
+//  SnowLing.pch
+//  SnowLing
+//
+//  Created by 刘新乐 on 16/10/24.
+//  Copyright © 2016年 lxl. All rights reserved.
+//
+
+#ifndef SnowLing_pch
+#define SnowLing_pch
+
+
+#import "SnowLing.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+#import <SVPullToRefresh.h>
+#import <AFNetworking.h>
+#import <MBProgressHUD.h>
+#import <MBProgressHUD.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Bugly/Bugly.h>
+#import <WebKit/WebKit.h>
+#import <MJRefresh.h>
+#import <MJRefresh/MJRefreshHeader.h> //刷新
+#import <CoreLocation/CoreLocation.h> // 定位
+#import <UserNotifications/UserNotifications.h>
+#import "UMessage.h" // 友盟推送
+#import <UMSocialCore/UMSocialCore.h> // 友盟分享
+#import <FMDB.h>
+
+#import "SLTool.h"
+#import "BaseModel.h"
+#import "UserModel.h"
+#import "ClassificationModel.h"
+#import "TaskMetaModel.h"
+#import "TaskItemModel.h"
+#import "BeeCloud.h"
+#import "CollectionAndLikeManager.h" // 收藏和喜欢
+#import "AdressFmdbModel.h"  //地址的数据库model
+#import <BaiduMapKit/BaiduMapAPI_Base/BMKBaseComponent.h> //百度地图
+#import <BaiduMapKit/BaiduMapAPI_Location/BMKLocationComponent.h> // 定位
+#import <BaiduMapKit/BaiduMapAPI_Map/BMKMapView.h>
+#import <BaiduMapAPI_Map/BMKPinAnnotationView.h>
+#import <BaiduMapAPI_Map/BMKPointAnnotation.h>
+#import <JavaScriptCore/JavaScriptCore.h> // js交互
+
+
+
+
+
+#import "SLProressHUD.h"
+
+
+#endif /* SnowLing_pch */
